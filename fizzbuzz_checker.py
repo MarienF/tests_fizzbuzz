@@ -14,4 +14,5 @@ class fizzbuzzchecker:
             print("Buzz")
             return True
 
+        print(num)
         return False

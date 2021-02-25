@@ -18,3 +18,7 @@ class numTest(unittest.TestCase):
     def test_shoud_be_multiple_of_5(self):
         actual = fizzbuzzchecker.is_bob(5)
         self.assertTrue(actual)
+
+    def test_should_be_multiple_of_3_and_5(self):
+        actual = fizzbuzzchecker.is_bob(14)
+        self.assertTrue(actual)
