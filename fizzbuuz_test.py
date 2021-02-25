@@ -10,3 +10,7 @@ class numTest(unittest.TestCase):
     def test_should_be_negative(self):
         actual = fizzbuzzchecker.is_bob(-1)
         self.assertFalse(actual, None)
+
+    def test_shoud_be_multiple_of_3(self):
+        actual = fizzbuzzchecker.is_bob(3)
+        self.assertTrue(actual)
