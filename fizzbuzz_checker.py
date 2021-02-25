@@ -18,4 +18,4 @@ class fizzbuzzchecker:
             return True
 
         print(num)
-        return False
+        return True
