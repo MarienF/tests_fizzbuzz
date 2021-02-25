@@ -6,6 +6,7 @@ class fizzbuzzchecker:
             return False
 
         if (num % 3 == 0):
-            return False
+            print("Fizz")
+            return True
 
         return True
