@@ -7,7 +7,8 @@ class fizzbuzzchecker:
             return False
 
         if (num % 3 == 0 and num % 5 == 0):
-            return False
+            print("FizzBuzz")
+            return True
 
         if (num % 3 == 0):
             print("Fizz")
