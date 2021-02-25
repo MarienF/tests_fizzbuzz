@@ -6,6 +6,9 @@ class fizzbuzzchecker:
             #raise NameError('Exeption')
             return False
 
+        if (num % 3 == 0 and num % 5 == 0):
+            return False
+
         if (num % 3 == 0):
             print("Fizz")
             return True
