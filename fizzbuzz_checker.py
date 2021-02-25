@@ -10,4 +10,8 @@ class fizzbuzzchecker:
             print("Fizz")
             return True
 
+        if (num % 5 == 0):
+            print("Buzz")
+            return True
+
         return False
