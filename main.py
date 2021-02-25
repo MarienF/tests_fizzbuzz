@@ -1,9 +1,9 @@
-import random
+from fizzbuzz_checker import fizzbuzzchecker
 
 def main():
     print("Alice donne le nombre :")
-    numAlice = random.randrange(-10, 101)
-    print(int(numAlice))
+    numAlice = input()
+    print(fizzbuzzchecker.is_bob(int(numAlice)))
 
 
 
