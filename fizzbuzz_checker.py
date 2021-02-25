@@ -3,8 +3,7 @@ class fizzbuzzchecker:
     @staticmethod
     def is_bob(num):
         if (num <= 0):
-            #raise NameError('Exeption')
-            return False
+            raise NameError('Exeption')
 
         if (num % 3 == 0 and num % 5 == 0):
             print("FizzBuzz")
