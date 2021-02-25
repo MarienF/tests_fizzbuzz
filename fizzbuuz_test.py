@@ -8,8 +8,8 @@ class numTest(unittest.TestCase):
             fizzbuzzchecker.is_bob(0)
 
     def test_should_be_negative(self):
-        actual = fizzbuzzchecker.is_bob(-1)
-        self.assertFalse(actual, None)
+        with self.assertRaises(Exception):
+            fizzbuzzchecker.is_bob(-1)
 
     def test_shoud_be_multiple_of_3(self):
         actual = fizzbuzzchecker.is_bob(3)
